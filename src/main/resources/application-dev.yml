@@ -1,0 +1,10 @@
+#简捷格式配置文件 port: 8081 冒号后必须有空格 否则不遵循yml格式文件
+server:
+#定义端口
+  port: 8080
+  #定义前缀路径
+  #servlet:
+   # context-path: /girl
+girl:
+ environment: dev
+ age: 18

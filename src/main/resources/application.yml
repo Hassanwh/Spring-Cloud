@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/wh
+    username: wh
+    password: wh123
+  jpa:
+    hibernate:
+      ddl-auto: update #运行的时候自动创建表
+    show-sql: true #控制台可以看到sql语句
